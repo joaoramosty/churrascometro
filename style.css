@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    max-width: 350px;
+    background-image: url(./assests/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 22px;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid rgba(234, 70, 11, 0.902);
+    border-radius: 5px;
+}
+
+input.inputbox{
+    position: relative;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.902);
+}
+
+.input-span{
+position: absolute;
+padding: 10px;
+pointer-events: none;
+text-transform: uppercase;
+}
+
+span{
+    transform: translateX(-5px);
+}
+
+#qtd-adultos, #qtd-nodrink , #timer-relative{
+    transform: translateY(-57px);
+    font-size: 0.65em;
+    font-weight: 600; 
+    background-color: transparent;
+    transition: 0.7s ;
+}
+

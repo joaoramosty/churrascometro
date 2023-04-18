@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Churrascomêtro</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Churrascomêtro</h1>
+      
+      <input type="number" required="required" class="inputbox" id="adultos" name="adultos" />
+
+      <span class="input-span" id="qtd-adultos">Quantidade de adultos</span>
+      
+      <input type="number" required="required" class="inputbox" id="qtdNoDrink" name="crianças" />
+
+      <span class="input-span" id="qtd-nodrink">Quantidade de adultos que não bebem e crianças</span>
+      
+      <input type="number" required="required" class="inputbox" id="timerRelative" name="duracao" />
+
+      <span class="input-span" id="timer-relative">Tempo estimado</span>
+
+      <button onclick="calcular()" id="calcular">Calcular</button>
+
+      <div id="resultado"></div>
+    </div>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
