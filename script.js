@@ -13,19 +13,40 @@ let resultado = document.getElementById("resultado")
 function calcular(){
     console.log("Calculando...")
     let adultos = inputAdultos.value;
-
     let qtdNoDrink = inputQtdNoDrink.value;
-    let timerRelative = inputTimerRelative.value
-    let qtdTotalCarne = carnePP(timerRelative) * adultos + (carnePP(timerRelative)/2 * qtdNoDrink);
+    let timerRelative = inputTimerRelative.value;
 
-    console.log(qtdTotalCarne);
+    let qtdTotalCarne = carnePP(timerRelative) * adultos + (carnePP(timerRelative)/2 * qtdNoDrink);
+    let qtdTotalAlcool = alcoolPP(timerRelative) * adultos;
+    let qtdTotalBebidas = bebidasPP(timerRelative) * adultos + (carnePP(timerRelative)/2 * qtdNoDrink);
+
+    resultado.innerHTML ="<p>$ (qtdTotalCarne) g de Carne</p>"
+    resultado.innerHTML +="<p>$(qtdTotalAlcool) ml de Bebidas alcoolicas</p>"
+    resultado.innerHTML +="<p>$(qtdTotalBebidas) ml de Refrigerantes e sucos</p>"
 }
 
-function carnePP(timerRelative){
+function carnePP(timerRelative) {
     if (timerRelative >= 6){
         return 650;
     }
     else{
         return 400;
+    }
+}
+
+function alcoolPP(timerRelative) {
+    if (timerRelative >= 6){
+        return 2000;
+    } else {
+        return 1200;
+    }
+}
+
+function bebidasPP(timerRelative) {
+    if (timerRelative >= 6){
+        return 1500;
+    }
+    else{
+        return 1000;
     }
 }
