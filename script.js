@@ -54,12 +54,12 @@ function calcular() {
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <p>${Math.ceil(qdtTotalCerveja/355)} latas de Cerveja</p>
+      <p>${Math.ceil(qdtTotalCerveja/355)} latas de 350 ml de Cerveja</p>
     </div>
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de Bebidas</p>
+      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de 1L de Refrigerante e/ou suco</p>
     </div>
     </br>
     </br>
