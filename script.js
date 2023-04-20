@@ -6,45 +6,16 @@
 // // Crianças valem por 0,5.
 
 let inputAdultos = document.getElementById("adultos");
-let inputQtdNoDrink = document.getElementById("qtdNoDrink");
-let inputTimerRelative = document.getElementById("duracao");
-let result = document.getElementById("resultado");
+let inputCriancas = document.getElementById("criancas");
+let inputDuracao = document.getElementById("duracao");
+let resultado = document.getElementById("resultado");
 
 function calcular(){
-    console.log("Calculando...")
-
+    console.log("calculando...");
+    
     let adultos = inputAdultos.value;
-    let qtdNoDrink = inputQtdNoDrink.value;
-    let timerRelative = inputTimerRelative.value;
-
-    let qtdTotalCarne = carnePP(timerRelative) * adultos + (carnePP(timerRelative)/2 * qtdNoDrink);
-    let qtdTotalAlcool = alcoolPP(timerRelative) * adultos;
-    let qtdTotalBebidas = bebidasPP(timerRelative) * adultos + (carnePP(timerRelative)/2 * qtdNoDrink);
-
-}
-
-function carnePP(timerRelative) {
-    if (timerRelative >= 6){
-        return 650;
-    }
-    else{
-        return 400;
-    }
-}
-
-function alcoolPP(timerRelative) {
-    if (timerRelative >= 6){
-        return 2000;
-    } else {
-        return 1200;
-    }
-}
-
-function bebidasPP(timerRelative) {
-    if (timerRelative >= 6){
-        return 1500;
-    }
-    else{
-        return 1000;
-    }
+    let criancas = inputCriancas.value;
+    
+    let qdtTotalCarne = 400 * adultos + (400/2 * criancas);
+    console.log(qdtTotalCarne);
 }
