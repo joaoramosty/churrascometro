@@ -7,7 +7,7 @@
 
 let inputAdultos = document.getElementById("adultos");
 let inputQtdNoDrink = document.getElementById("qtdNoDrink");
-let inputTimerRelative = document.getElementById("timerRelative");
+let inputTimerRelative = document.getElementById("duracao");
 let result = document.getElementById("resultado");
 
 function calcular(){
@@ -21,9 +21,6 @@ function calcular(){
     let qtdTotalAlcool = alcoolPP(timerRelative) * adultos;
     let qtdTotalBebidas = bebidasPP(timerRelative) * adultos + (carnePP(timerRelative)/2 * qtdNoDrink);
 
-    result.innerHTML ='<p>$ {qtdTotalCarne}g de Carne</p>'
-    result.innerHTML +='<p>$ {qtdTotalAlcool}ml de Bebidas alcoolicas</p>'
-    result.innerHTML +='<p>$ {qtdTotalBebidas}ml de Refrigerantes e sucos</p>'
 }
 
 function carnePP(timerRelative) {
