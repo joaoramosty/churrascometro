@@ -13,10 +13,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="Churrascomêmetro : as medidas para seu churrasco" src="assests/preview.jpg" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
