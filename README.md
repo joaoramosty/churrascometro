@@ -1,4 +1,4 @@
-<h1 align="center">LinkBio</h1>
+<h1 align="center">Churrascomêtro</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto LinkBio" src="assests/preview.jpg" width="100%">
+  <img alt="Churrascomêmetro : as medidas para seu churrasco" src="assests/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,17 +28,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online, utilizado na biografia do Instagram , então coloquei como nome: LinkBio.
+Com o churrascomêtro , você consegue ter uma percepção das quantidades para seu churrrasco , te mostrando o quanto vai ser necessário dos itens : Carne , Cerveja e Refrigerante.
 
-![mylinks final](https://user-images.githubusercontent.com/127153835/229230652-ed214101-a421-400c-84be-16eb82837ea9.gif)
+![Churrascomêtro - Google Chrome 2023-04-20 17-21-15](https://user-images.githubusercontent.com/127153835/233483243-b3f3e419-cb5d-48d8-bab3-c5a6d3a4be54.gif)
 
+- [Acesse o projeto finalizado, online](https://ojoaoramos.github.io/churrascometro/)
 
-- [Acesse o projeto finalizado, online](https://ojoaoramos.github.io/devlinks/)
-
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## Licença
 
