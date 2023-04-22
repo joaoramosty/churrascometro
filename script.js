@@ -13,25 +13,25 @@ const resultado = document.getElementById("resultado");
 
 function carnePP(duracao){
     if(duracao >= 6){
-        return 650;
+        return 450;
     } else {
-        return 400;
+        return 300;
     }
 }
 
 function cervejaPP(duracao){
     if(duracao >= 6){
-        return 2000;
-    } else {
         return 1200;
+    } else {
+        return 800;
     }
 }
 
 function bebidasPP(duracao){
     if(duracao >= 6){
-        return 1500;
+        return 1200;
     } else {
-        return 1000;
+        return 800;
     }
 }
 
