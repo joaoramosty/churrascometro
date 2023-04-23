@@ -29,7 +29,7 @@ function cervejaPP(duracao){
 
 function bebidasPP(duracao){
     if(duracao >= 6){
-        return 1120;
+        return 1100;
     } else {
         return 700;
     }
@@ -49,12 +49,12 @@ function calcular() {
     resultado.innerHTML = `<h2 class="result-info">Você vai precisar de:</h2>`
   resultado.innerHTML += `
     <div class="result-block">
-      <p>${qdtTotalCarne/1000} Kg de Carne</p>
+      <p>${qdtTotalCarne/1000} Kg de Carne para um ótimo churrasco !</p>
     </div>
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <p>${Math.ceil(qdtTotalCerveja/355)} latas de 350 ml de Cerveja</p>
+      <p>${Math.ceil(qdtTotalCerveja/355)} latas de 350 ml de Cerveja para fazer a alegria da galera</p>
     </div>
   `
   resultado.innerHTML += `
