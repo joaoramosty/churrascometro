@@ -12,26 +12,26 @@ const inputDuracao = document.getElementById("duracao");
 const resultado = document.getElementById("resultado");
 
 function carnePP(duracao){
-    if(duracao >= 6){
-        return 450;
-    } else {
+    if(duracao < 6){
         return 300;
+    } else {
+        return 450;
     }
 }
 
 function cervejaPP(duracao){
-    if(duracao >= 6){
-        return 1000;
-    } else {
+    if(duracao < 6){
         return 800;
+    } else {
+        return 1000;
     }
 }
 
 function bebidasPP(duracao){
-    if(duracao >= 6){
-        return 1100;
-    } else {
+    if(duracao < 6){
         return 700;
+    } else {
+        return 1100;
     }
 }
 
@@ -59,7 +59,7 @@ function calcular() {
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de 1L de Refrigerante e/ou suco para refrescar o calor da brasa</p>
+      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de 1L de Refrigerante e/ou suco para refrescar o calor da brasa </p>
     </div>
     </br>
     </br>
