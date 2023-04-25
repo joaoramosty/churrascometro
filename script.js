@@ -49,17 +49,17 @@ function calcular() {
     resultado.innerHTML = `<h2 class="result-info">Você vai precisar de:</h2>`
   resultado.innerHTML += `
     <div class="result-block">
-      <p>${qdtTotalCarne/1000} Kg de Carne para um ótimo churrasco !</p>
+      <p>${qdtTotalCarne/1000} Kg de Carne para um ótimo churrasco</p>
     </div>
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <p>${Math.ceil(qdtTotalCerveja/355)} latas de 350 ml de Cerveja para fazer a alegria da galera !</p>
+      <p>${Math.ceil(qdtTotalCerveja/355)} latas de 350 ml de Cerveja para fazer a alegria da galera</p>
     </div>
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de 1L de Refrigerante e/ou suco para refrescar !</p>
+      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de 1L de Refrigerante e/ou suco para refrescar o calor da brasa</p>
     </div>
     </br>
     </br>
