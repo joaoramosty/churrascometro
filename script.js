@@ -44,7 +44,7 @@ function calcular() {
     
     const qdtTotalCarne = carnePP(duracao) * adultos + (carnePP(duracao)/2 * criancas);
     const qdtTotalCerveja = cervejaPP(duracao) * adultos;
-    const qdtTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao)/2 * criancas);
+    const qdtTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao)*2/2 * criancas);
     
     resultado.innerHTML = `<h2 class="result-info">Você vai precisar de:</h2>`
   resultado.innerHTML += `
